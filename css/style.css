@@ -1,0 +1,18 @@
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-image: url("../images/banner/banner3.png");
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 400px 0;
+}
