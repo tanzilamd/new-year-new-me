@@ -2,17 +2,48 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.btn-contact {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 15px 25px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
 /* Header */
 header {
     background-image: url("../images/banner/banner3.png");
     /* background-size: 100%; */
     background-repeat: no-repeat;
     background-position: top left;
-    padding: 400px 0;
+    /* padding: 250px 0; */
+    display: flex;
+    align-items: center;
+}
+.banner-text {
+    width: 50%;
+    float: right;
+    text-align: right;
+    color: #FFF;
+    padding: 180px 0;
+}
+.banner-text h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.banner-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 35px;
 }
