@@ -47,3 +47,75 @@ header {
     line-height: 26px;
     margin-bottom: 35px;
 }
+
+/* My failture section */
+.failure-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.failure-img {
+    width: 50%;
+}
+.failure-img img {
+    width: 400px;
+}
+.failure-text {
+    width: 50%;
+}
+.failure-text h3 {
+    color: #151414;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.failure-text p {
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+
+}
+.failure-text ul li {
+    list-style: none;
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.failure-text ul i {
+    color: green;
+    display: inline-block;
+    padding-right: 5px;
+}
+/* My Plans */
+.my-plans {
+    padding-bottom: 130px;
+}
+.my-plans h3 {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.plan-items-container {
+    display: flex;
+    justify-content: space-between;
+}
+.plan-item {
+    text-align: center;
+}
+.plan-item h4 {
+    color: #151414;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.plan-item p {
+    color:  #737272;
+    font-size: 18px;
+    font-weight: 500;
+}
